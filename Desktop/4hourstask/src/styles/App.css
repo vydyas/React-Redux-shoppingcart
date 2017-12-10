@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  text-align: center;
+}
+.App {
+  width: 1020px;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.products {
+  width:720px;
+}
+
+.cart{
+  width:300px;
+  border: solid 1px #eee;
+  margin-left: 20px;
+  box-shadow: 1px 1px 1px 1px #eee;
+  height: 200px;
+  padding:20px;
+  position: relative;
+}
+.itemsCart {
+  display: flex;
+  width:280px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.orderTotal {
+  position: ABSOLUTE;
+    bottom: 0px;
+    width: 305px;
+    background: #eee;
+    display: flex;
+    padding: 10px;
+    right: 16p;
+    margin-left: -20px;
+    justify-content: space-between;
+}
+
+.productsHeader {
+  display: flex;
+  border-top: solid 1px #eee;
+  border-bottom: solid 1px #eee;
+  align-items: center;
+  height: 40px;
+}
+.itemsValue {
+  box-shadow: 1px 1px 1px 1px #eee;
+}
+.items {
+  display: flex;
+  width: 430px;
+}
+.qty {
+  display: flex;
+   width: 106px;
+  padding-left: 40px;
+}
+.price {
+  display: flex;
+  width: 100px;
+}
+.priceValue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productData {
+  display: flex;
+  border-top: solid 1px #eee;
+  border-bottom: solid 1px #eee;
+  align-items: center;
+  height: 40px;
+}
+.productValue {
+  display: flex;
+  margin: 15px 0px 15px 0px;
+  height: 60px;
+}
+.itemsdata {
+  display: flex;
+  width: 400px;
+  padding: 5px;
+  justify-content: space-between;
+}
+.itemsdata .left{
+  display: flex;
+  align-items: center;
+}
+.itemsdata .left img{
+  width: 25px;
+  height: 50px;
+}
+.itemsdata .right{
+  display: flex
+}
+.inputQty {
+  width: 50px;
+    height: 50px;
+    border: solid 1px #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #6d6a6a;
+}
+.qtyValue {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+#itemName {
+  font-weight: normal
+}
+.plus {
+  font-size: 25px;
+  color: #c1b9b9;
+}
+.minus {
+  font-size: 25px;
+  color: #c1b9b9;
+}
+.orderTotalValue {
+  font-size: 18px;
+} 
+.delete {
+  font-size: 25px;
+  color: #c1b9b9;
+}
+
+button{
+  border:none;
+  background: none;
+  outline: none;
+}
